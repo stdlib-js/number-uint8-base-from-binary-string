@@ -24,14 +24,30 @@ limitations under the License.
 
 > Create an unsigned 8-bit integer from a [literal bit representation][@stdlib/number/uint8/base/to-binary-string].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/number-uint8-base-from-binary-string
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
+var fromBinaryStringUint8 = require( '@stdlib/number-uint8-base-from-binary-string' );
 ```
 
 #### fromBinaryStringUint8( bstr )
@@ -67,8 +83,8 @@ val = fromBinaryStringUint8( bstr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import toBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@deno/mod.js';
-import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
+var toBinaryStringUint8 = require( '@stdlib/number-uint8-base-to-binary-string' );
+var fromBinaryStringUint8 = require( '@stdlib/number-uint8-base-from-binary-string' );
 
 var b;
 var y;
@@ -103,7 +119,7 @@ for ( i = 0; i < 256; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -159,10 +175,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/number-uint8-base-from-binary-string/tree/deno
 [umd-url]: https://github.com/stdlib-js/number-uint8-base-from-binary-string/tree/umd
 [esm-url]: https://github.com/stdlib-js/number-uint8-base-from-binary-string/tree/esm
+[branches-url]: https://github.com/stdlib-js/number-uint8-base-from-binary-string/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/number-uint8-base-from-binary-string/main/LICENSE
 
-[@stdlib/number/uint8/base/to-binary-string]: https://github.com/stdlib-js/number-uint8-base-to-binary-string/tree/deno
+[@stdlib/number/uint8/base/to-binary-string]: https://github.com/stdlib-js/number-uint8-base-to-binary-string
 
 </section>
 
