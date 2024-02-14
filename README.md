@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-uint8-base-from-binary-string/tags). For example,
+
+```javascript
 import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@v0.2.0-deno/mod.js';
 ```
 
@@ -79,7 +84,7 @@ val = fromBinaryStringUint8( bstr );
 
 ```javascript
 import toBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@deno/mod.js';
-import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@v0.2.0-deno/mod.js';
+import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
 
 var b;
 var y;
