@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
+import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@v0.2.1-deno/mod.js';
 ```
 
 #### fromBinaryStringUint8( bstr )
@@ -79,7 +79,7 @@ val = fromBinaryStringUint8( bstr );
 
 ```javascript
 import toBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-to-binary-string@deno/mod.js';
-import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@deno/mod.js';
+import fromBinaryStringUint8 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint8-base-from-binary-string@v0.2.1-deno/mod.js';
 
 var b;
 var y;
